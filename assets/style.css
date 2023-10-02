@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(90deg, rgba(0, 12, 209, 1) 0%, rgba(171, 0, 209, 1) 100%);
+}
+
+.perfect-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.font-green {
+    color: #00FF00;
+}
+
+.font-red {
+    color: red;
+}
+
+.font-blue {
+    color: blue;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.img-nav-icon {
+    width: 30px;
+}
+
+.menu-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.menu-admin-edit {
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.img-menu-panel {
+    width: 70px;
+}
+
+/* CSS Web Client */
+
+.header-title {
+    width: 970px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.customvh {
+    height: 600px;
+}
+
+.text-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-title2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cta-header {
+    padding: 5px;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    background: rgb(255, 134, 4);
+}
+
+.container-layanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.size-tentang-kami {
+    width: 970px;
+}
+
+.container-profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 45px;
+
+}
+
+.profil {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.size-promo {
+    height: 510px;
+}
+
+.size-kontak-kami {
+    height: 510px;
+}
+
+
+
+@media (orientation: portrait) {
+    .customvh {
+        height: 500px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .header-title {
+        width: 290px;
+        height: 400px;
+    }
+
+    .text-title {
+        font-size: 25px;
+    }
+
+    .text-title2 {
+        font-size: 20px;
+    }
+
+    .cta-header {
+        font-size: 20px;
+    }
+
+    .container-layanan {
+        flex-direction: column;
+    }
+
+    .margin-layanan-top {
+        margin-top: 35px;
+    }
+
+    .container-tentang {
+        margin-top: 35px;
+    }
+
+    .size-tentang-kami {
+        width: 290px;
+    }
+
+    .container-profil {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .size-promo {
+        height: 480px;
+    }
+
+    .size-kontak-kami {
+        height: 280px;
+    }
+}
